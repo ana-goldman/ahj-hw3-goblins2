@@ -1,0 +1,21 @@
+.board {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: url(../img/hammer.png), pointer;
+}
+
+.hole {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.hole__has-mole {
+    background-image: url(../img/goblin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
